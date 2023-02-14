@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - "*"
-    # Only consider those paths to trigger the action
+    # Only consider those paths to trigger the action!
     paths:
       - 'backend/**'
       - '.github/**'
